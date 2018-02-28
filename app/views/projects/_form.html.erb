@@ -1,0 +1,14 @@
+<%= form_for @project do |i| %>
+  <hr>
+  <%= i.label :name %>
+  <%= i.text_field :name %>
+  <br>
+  <%= i.label :grade %>
+  <%= i.text_field :grade %>
+  <br>
+  <%= i.label :notes %>
+  <%= i.text_area :notes %>
+  <br>
+
+  <%= i.submit %>
+<% end %>
